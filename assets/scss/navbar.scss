@@ -1,10 +1,10 @@
+@import 'animations.scss';
+@import 'variables.scss';
+
 #sidebar-wrapper {
+    @include margin-animate;
     min-height: 100vh;
     margin-left: -15rem;
-    -webkit-transition: margin .25s ease-out;
-    -moz-transition: margin .25s ease-out;
-    -o-transition: margin .25s ease-out;
-    transition: margin .25s ease-out;
     background-color: #2a4054;
     border-right: 1px solid #fff;
     .sidebar-heading {
@@ -16,10 +16,17 @@
         width: 15rem;
         .list-group-item-action{
             background-color: #2a4054;
+            .fa{
+                margin-right: 10px;
+            }
+            &:hover{
+                border-right: 4px solid #0f82da;
+                transition: .1s ease-out;
+            }
         }
         .list-group-item{
             color: #fff;
-            font-weight: 300;
+            font-weight: $fw-300;
         }
     }
 }
@@ -36,8 +43,24 @@
             color:#fff;
         }
     }
+    .navbar-toggler{
+        border: none;
+        .fa{
+            cursor: pointer;
+            transform: none !important;
+        }
+    }
+    
     .dropdown-toggle{
         color:#fff;
+    }
+    .dropdown-item:focus, .dropdown-item:hover{
+        background: transparent;
+    }
+    .dropdown-menu{
+        .fa{
+            color: #555;
+        }
     }
 }
 

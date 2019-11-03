@@ -14,4 +14,19 @@ body {
     padding: 15px;
 }
 
+strong {
+    font-weight: $fw-500;
+}
+
+p {
+    font-weight: $fw-400;
+    margin-bottom: 0 !important;
+}
+
+span {
+    font-weight: $fw-300;
+    margin-bottom: 0 !important;
+}
+
+
 

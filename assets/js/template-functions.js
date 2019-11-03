@@ -12,3 +12,19 @@ $('#menu-toggle').click(function() {
         $('#open-close').addClass('fa-long-arrow-left');
     }
 });
+
+function getDimensions() {
+    let width = $(window).width();
+    if(width <= 768) {
+        $('#open-close').addClass("fa-long-arrow-right");
+        $('#open-close').removeClass("fa-long-arrow-left");
+    }else{
+        $('#open-close').removeClass("fa-long-arrow-right");
+        $('#open-close').addClass("fa-long-arrow-left");
+    }
+}
+
+window.onresize = function() {
+    getDimensions()
+}
+

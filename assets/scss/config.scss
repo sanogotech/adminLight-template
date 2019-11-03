@@ -27,6 +27,15 @@ span {
     font-weight: $fw-300;
     margin-bottom: 0 !important;
 }
+ 
+table {
+    font-weight: $fw-400;
+}
 
+.form-control:focus {
+    border-color:#2a4054;
+    outline: 0;
+    box-shadow: none;
+}
 
 

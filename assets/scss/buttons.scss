@@ -19,6 +19,9 @@
     &:active {
         @include mouse-effect;
     }
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .btn-grey {
@@ -34,6 +37,9 @@
     }
     &:active {
         @include mouse-effect;
+    }
+    &:focus {
+        box-shadow: none;
     }
 }
 
@@ -51,6 +57,9 @@
     &:active {
         @include mouse-effect;
     }
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .btn-red {
@@ -66,6 +75,9 @@
     }
     &:active {
         @include mouse-effect;
+    }
+    &:focus {
+        box-shadow: none;
     }
 }
 
@@ -83,6 +95,9 @@
     &:active {
         @include mouse-effect;
     }
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .btn-aqua {
@@ -99,6 +114,12 @@
     &:active{
         @include mouse-effect;
     }
+    &:focus {
+        box-shadow: none;
+    }
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .btn-black {
@@ -114,5 +135,8 @@
     }
     &:active {
         @include mouse-effect;
+    }
+    &:focus {
+        box-shadow: none;
     }
 }

@@ -7,6 +7,9 @@
     margin-left: -15rem;
     background-color: #2a4054;
     border-right: 1px solid #fff;
+    .menu-active {
+        border-right: 4px solid #0f82da;
+    }
     .sidebar-heading {
         padding: 0.875rem 1.25rem;
         font-size: 1.2rem;

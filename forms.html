@@ -48,9 +48,9 @@
         <a href="icons.html" class="list-group-item list-group-item-action"><i class="fa fa-cube" aria-hidden="true"></i>Icons</a>
         <a href="typography.html" class="list-group-item list-group-item-action"><i class="fa fa-text-width" aria-hidden="true"></i>Typography</a>
         <a href="modals.html" class="list-group-item list-group-item-action"><i class="fa fa-sticky-note-o" aria-hidden="true"></i>Modals</a>
-        <a href="forms.html" class="list-group-item list-group-item-action menu-active"><i class="fa fa-cube" aria-hidden="true"></i>Forms</a>
+        <a href="forms.html" class="list-group-item list-group-item-action"><i class="fa fa-cube" aria-hidden="true"></i>Forms</a>
         <a href="alerts.html" class="list-group-item list-group-item-action"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Alerts</a>
-        <a href="breadcrumb.html" class="list-group-item list-group-item-action"><i class="fa fa-cube" aria-hidden="true"></i>Breadcrumb</a>
+        <a href="breadcrumb.html" class="list-group-item list-group-item-action menu-active"><i class="fa fa-cube" aria-hidden="true"></i>Breadcrumb</a>
       </div>
     </div>
 
@@ -78,7 +78,42 @@
         </div>
       </nav>
       <div class="container-fluid">
-      <p>Forms</p>
+      <div class="row">
+        <div class="card col-md-12">
+           <div class="pd-15">
+              <h1>Forms</h1>
+              
+              <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip01">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="" required>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip02">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationTooltip03">City</label>
+                    <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationTooltip04">State</label>
+                    <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <label for="validationTooltip05">Zip</label>
+                    <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                  </div>
+                </div>
+                <button class="btn btn-red btn-sm float-right">Cancel</button>
+                <button class="btn btn-green btn-sm float-right mr-1">Save</button>
+              </form>
+           </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>

@@ -28,3 +28,7 @@ window.onresize = function() {
     getDimensions()
 }
 
+$('#btn-login').on('click', function () {
+    window.location.href = 'index.html'
+});
+

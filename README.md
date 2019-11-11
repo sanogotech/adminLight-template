@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 -------------
 
 ### Download
-[Download link repository](https://github.com/oniag/AdminLight-template/archive/master.zip)
+[Download repository](https://github.com/oniag/AdminLight-template/archive/master.zip)
 
 -------------
 

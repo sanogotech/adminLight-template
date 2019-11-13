@@ -4,7 +4,7 @@
 
 Simple dashboard with few plugins and responsive created with Boostrap 4 and SASS.
 
-<a href="https://oniag.github.io/AdminLight-template/index.html" target="_blank">Live preview</a>
+[Live preview](https://oniag.github.io/AdminLight-template/index.html)
 
 -------------
 ### Getting Started
